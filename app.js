@@ -6,8 +6,15 @@ const publicPath = path.resolve(__dirname, "./public") //le indicamos a path que
 app.use(express.static(publicPath))  //usamos la funcion static de express, que recibe como parametro la ruta a la carpeta public
 
 
-app.listen(3000)
+app.listen(3080)
 
 app.get("/",(req,res)=>{
     res.sendFile(path.resolve(__dirname, "./views/home.html"))
+})
+app.get("/register",(req,res)=>{
+    res.sendFile(path.resolve(__dirname, "./views/register.html"))
+})
+
+app.get("/login",(req,res)=>{
+    res.sendFile(path.resolve(__dirname, "./views/login.html"))
 })

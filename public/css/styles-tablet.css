@@ -1,33 +1,5 @@
 @media (min-width: 481px) {
-    .product {
-        box-shadow:inset;
+    p-fixed{
+        margin: -1% 0% 0% -0.99%;
     }
-    .mainHeader{
-      display: flex;
-      justify-content: space-between;
-    }
-    .text-center {
-      text-align: right;
-      margin: unset;
-    }
-    .burger-menu{
-      display: none;
-    }
-    .nav-bar{
-      display: flex;
-      justify-content: space-between;
-    }
-    .nav-bar ul{
-      display: flex;
-    }
-    li{
-      margin: 0px 5px;
-    }
-    
-    article{
-        width: 40%;
-        margin: 3%;
-    }
-
-    
 }
